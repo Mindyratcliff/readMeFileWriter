@@ -29,6 +29,18 @@ const questions  = () =>
       message: 'Please enter the usage information.',
     },
     {
+        //contribution guidelines
+      type: 'input',
+      name: 'contribution',
+      message: 'Please enter the contribution guidelines.',
+    },
+    {
+        //test instructions
+      type: 'input',
+      name: 'test',
+      message: 'Please enter the test instructions.',
+    },
+    {
         //WHEN I enter my GitHub username
       type: 'input',
       name: 'github',
@@ -43,7 +55,7 @@ const questions  = () =>
   ]);
 
 //THEN this is displayed as the title of the README
-//WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
+
 //THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
 //WHEN I choose a license for my application from a list of options
 //THEN a badge for that license is added near the top of the README
