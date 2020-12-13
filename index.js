@@ -66,9 +66,9 @@ const questions  = () =>
       name: 'email',
       message: 'Enter your email address.',
     },
-  ]).then((response) =>
-    writeToFile('ReadMeExample2.md', response)
-      
+  ]).then((response) => 
+    writeToFile(process.argv[2], response)
+    
   );
 
 // function to write README file
