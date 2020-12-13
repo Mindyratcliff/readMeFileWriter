@@ -1,7 +1,10 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
+  //THEN this is displayed as the title of the README
+  //THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
   return `# ${data.title}
   
+
    ${data.description}
 
    ## Table of Contents
@@ -33,6 +36,9 @@ function generateMarkdown(data) {
 
     ## Test Instructions 
     ${data.test}
+
+    ##License
+    ${data.license}
 
     ## Questions/Contact 
     ${data.github} 

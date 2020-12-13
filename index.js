@@ -1,5 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // GIVEN a command-line application that accepts user input
 const questions  = () =>
@@ -47,7 +48,7 @@ const questions  = () =>
       message: 'Please enter the test instructions.',
     },
     {
-      //license options
+      //WHEN I choose a license for my application from a list of options
     type: 'list',
     name: 'license',
     message: 'Which license do you want to include?',
@@ -67,22 +68,15 @@ const questions  = () =>
     },
   ]);
 
-//THEN this is displayed as the title of the README
-
-//THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-//WHEN I choose a license for my application from a list of options
-//THEN a badge for that license is added near the top of the README
-
-//THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-
-//THEN this is added to the section of the README entitled Questions,
-//WHEN I click on the links in the Table of Contents
-//THEN I am taken to the corresponding section of the README
-];
-
 // function to write README file
 function writeToFile(fileName, data) {
-}
+  generateMarkdown(data);
+  fs.writeFile(fileName, data, (err) =>
+  err ? console.error(err) : 
+  console.log('Success!')
+  )
+
+};
 
 // function to initialize program
 function init() {
