@@ -17,15 +17,27 @@ function generateMarkdown(data) {
 
     6.) License
 
-    ## ${data.usage}
+    7.) Questions/Contact
 
-    ## ${data.installation}
+    ## Usage
+    ${data.usage}
 
-    ## ${data.credit}
+    ## Installation 
+    ${data.installation}
 
-    ## ${data.contribution}
+    ## Credits
+    ${data.credit}
 
-    ## ${data.test}
+    ## Contributing 
+    ${data.contribution}
+
+    ## Test Instructions 
+    ${data.test}
+
+    ## Questions/Contact 
+    ${data.github} 
+    ${data.email}
+
 
 
 `;
