@@ -18,9 +18,10 @@ ${data.description}
 
 5.) [Test Instructions](#test-instructions)
 
-6.) [License](#license)
+6.) [Questions/Contact](#questions/contact)
 
-7.) [Questions/Contact](#questions/contact)
+7.) [License](#license)
+
 
 ## Usage
 ${data.usage}
@@ -37,12 +38,14 @@ ${data.contribution}
 ## Test Instructions 
 ${data.test}
 
-##License
-${data.license}
-
 ## Questions/Contact 
 ${data.github} 
 ${data.email}
+
+## License
+${data.license}
+
+
 
 
 

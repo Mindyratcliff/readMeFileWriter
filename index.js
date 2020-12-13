@@ -1,6 +1,10 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
+const mitLicense = require('./utils/MIT.js');
+const apacheLicense = require('./utils/apache.js');
+const artisticLicense = require('./utils/artistic.js');
+const openSoftwareLicense = require('./utils/openSoftware.js');
 
 // GIVEN a command-line application that accepts user input
 const questions  = () =>
@@ -68,16 +72,31 @@ const questions  = () =>
     },
   ]).then((response) => 
     writeToFile(process.argv[2], response)
-    
   );
 
 // function to write README file
 function writeToFile(fileName, data) {
+  let licenseChoice = data.license;
+  if (licenseChoice == 'MIT'){
+    data.license = mitLicense;
+  }
+  if (licenseChoice == 'Apache 2.0'){
+    data.license = apacheLicense;
+
+  }
+  if (licenseChoice == 'Artistic 2.0'){
+    data.license = artisticLicense;
+
+  }
+  if (licenseChoice == 'Open Software License 3.0'){
+    data.license = openSoftwareLicense;
+  }
   let markdown = generateMarkdown(data);
   fs.writeFile(fileName, markdown, (err) =>
   err ? console.error(err) : 
   console.log('Success!')
   )
+  
 
 };
 
