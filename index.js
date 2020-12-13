@@ -66,12 +66,15 @@ const questions  = () =>
       name: 'email',
       message: 'Enter your email address.',
     },
-  ]);
+  ]).then((response) =>
+    writeToFile('ReadMeExample.md', response)
+      
+  );
 
 // function to write README file
 function writeToFile(fileName, data) {
-  generateMarkdown(data);
-  fs.writeFile(fileName, data, (err) =>
+  let markdown = generateMarkdown(data);
+  fs.writeFile(fileName, markdown, (err) =>
   err ? console.error(err) : 
   console.log('Success!')
   )
@@ -80,6 +83,7 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
+  questions();
 
 }
 

@@ -8,19 +8,19 @@ function generateMarkdown(data) {
    ${data.description}
 
    ## Table of Contents
-    1.) Usage
+    [1.) Usage]()
 
-    2.) Installation
+    [.) Installation]()
 
-    3.) Credits
+    [3.) Credits]()
 
-    4.) Contributing
+    [4.) Contributing]()
 
-    5.) Test Instructions
+    [5.) Test Instructions]()
 
-    6.) License
+    [6.) License]()
 
-    7.) Questions/Contact
+    [7.) Questions/Contact]()
 
     ## Usage
     ${data.usage}
