@@ -5,44 +5,44 @@ function generateMarkdown(data) {
   return `# ${data.title}
   
 
-   ${data.description}
+${data.description}
 
-   ## Table of Contents
-    [1.) Usage]()
+## Table of Contents
+1.) [Usage](#usage)
 
-    [.) Installation]()
+2.) [Installation](#installation)
 
-    [3.) Credits]()
+3.) [Credits](#credits)
 
-    [4.) Contributing]()
+4.) [Contributing](#contributing)
 
-    [5.) Test Instructions]()
+5.) [Test Instructions](#test-instructions)
 
-    [6.) License]()
+6.) [License](#license)
 
-    [7.) Questions/Contact]()
+7.) [Questions/Contact](#questions/contact)
 
-    ## Usage
-    ${data.usage}
+## Usage
+${data.usage}
 
-    ## Installation 
-    ${data.installation}
+## Installation 
+${data.installation}
 
-    ## Credits
-    ${data.credit}
+## Credits
+${data.credit}
 
-    ## Contributing 
-    ${data.contribution}
+## Contributing 
+${data.contribution}
 
-    ## Test Instructions 
-    ${data.test}
+## Test Instructions 
+${data.test}
 
-    ##License
-    ${data.license}
+##License
+${data.license}
 
-    ## Questions/Contact 
-    ${data.github} 
-    ${data.email}
+## Questions/Contact 
+${data.github} 
+${data.email}
 
 
 

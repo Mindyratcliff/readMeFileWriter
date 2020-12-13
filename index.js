@@ -67,7 +67,7 @@ const questions  = () =>
       message: 'Enter your email address.',
     },
   ]).then((response) =>
-    writeToFile('ReadMeExample.md', response)
+    writeToFile('ReadMeExample2.md', response)
       
   );
 
