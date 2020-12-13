@@ -17,16 +17,22 @@ const questions  = () =>
       message: 'Please describe your project.',
     },
     {
+      //usage information
+    type: 'input',
+    name: 'usage',
+    message: 'Please enter the usage information.',
+    },
+    {
         //installation instructions
       type: 'input',
       name: 'installation',
       message: 'Please enter your installation instructions.',
     },
     {
-        //usage information
-      type: 'input',
-      name: 'usage',
-      message: 'Please enter the usage information.',
+      //credits
+    type: 'input',
+    name: 'credit',
+    message: 'Please provide credit to resources used.',
     },
     {
         //contribution guidelines
