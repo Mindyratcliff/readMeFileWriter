@@ -47,6 +47,13 @@ const questions  = () =>
       message: 'Please enter the test instructions.',
     },
     {
+      //license options
+    type: 'list',
+    name: 'license',
+    message: 'Which license do you want to include?',
+    choices: ['MIT', 'Unlicense', 'Apache 2.0', 'Artistic 2.0', 'Open Software License 3.0'],
+  },
+    {
         //WHEN I enter my GitHub username
       type: 'input',
       name: 'github',
