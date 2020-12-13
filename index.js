@@ -57,7 +57,13 @@ const questions  = () =>
     name: 'license',
     message: 'Which license do you want to include?',
     choices: ['MIT', 'Unlicense', 'Apache 2.0', 'Artistic 2.0', 'Open Software License 3.0'],
-  },
+    },
+    {
+    //WHEN I enter my email address
+    type: 'input',
+    name: 'name',
+    message: 'Please enter your name.',
+    },
     {
         //WHEN I enter my GitHub username
       type: 'input',
@@ -78,10 +84,10 @@ const questions  = () =>
 function writeToFile(fileName, data) {
   let licenseChoice = data.license;
   if (licenseChoice == 'MIT'){
-    data.license = mitLicense;
+    data.license = mitLicense(data);
   }
   if (licenseChoice == 'Apache 2.0'){
-    data.license = apacheLicense;
+    data.license = apacheLicense(data);
 
   }
   if (licenseChoice == 'Artistic 2.0'){

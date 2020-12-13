@@ -39,7 +39,8 @@ ${data.contribution}
 ${data.test}
 
 ## Questions/Contact 
-${data.github} 
+${data.name}
+${data.github}
 ${data.email}
 
 ## License
