@@ -1,5 +1,8 @@
  const artisticLicense = 
- `The Artistic License 2.0
+ `
+ ![License: Artistic 2.0](https://badgen.net/github/license/micromatch/micromatch)
+
+ The Artistic License 2.0
 
 	    Copyright (c) 2000-2006, The Perl Foundation.
 

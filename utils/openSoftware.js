@@ -1,5 +1,9 @@
 const openSoftwareLicense = 
-`Open Software License ("OSL") v. 3.0
+
+`
+![License: Open Software 3.0](https://badgen.net/github/license/micromatch/micromatch)
+
+Open Software License ("OSL") v. 3.0
 
 This Open Software License (the "License") applies to any original work of
 authorship (the "Original Work") whose owner (the "Licensor") has placed the

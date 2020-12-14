@@ -2,7 +2,11 @@ const generateMarkdown = require('./generateMarkdown');
 const moment = require('moment');
 
 function mitLicense (data){ 
-    return `# MIT License
+    return `# 
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)(https://opensource.org/licenses/MIT)
+
+MIT License
 
 Copyright (c) ${moment().format('YYYY')} ${data.name}
 
