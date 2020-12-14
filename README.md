@@ -1,5 +1,8 @@
 # ReadMe File Writer
-  
+ 
+ ![JavaScript](https://img.shields.io/github/languages/top/Mindyratcliff/readMeFileWriter) ![Node](https://img.shields.io/badge/-nodejs-green) ![WomeninTech](https://img.shields.io/badge/womanmade-100%25-ff69b4)
+
+ 
 
 This is a command line application which dynamically generates a professional ReadMe file with user input.
 
@@ -40,9 +43,7 @@ Mindyratcliff
 mindy.ratcliff@gmail.com
 
 ## License
-# 
-
-    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 MIT License
 
