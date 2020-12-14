@@ -4,7 +4,7 @@
 
  
 
-This is a command line application which dynamically generates a professional ReadMe file with user input.
+This is a command line application which dynamically generates a professional ReadMe file with user input. - This Read Me was made with the application - 
 
 ## Table of Contents
 1.) [Usage](#usage)
