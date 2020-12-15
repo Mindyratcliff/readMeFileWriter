@@ -23,6 +23,8 @@ This is a command line application which dynamically generates a professional Re
 
 ![ScreenShot1](https://github.com/Mindyratcliff/readMeFileWriter/blob/main/utils/screenshot1.jpeg)
 ![ScreenShot2](https://github.com/Mindyratcliff/readMeFileWriter/blob/main/utils/screenshot2.jpeg)
+![ExampleReadMe](https://github.com/Mindyratcliff/readMeFileWriter/blob/main/utils/examplereadme1.jpeg)
+![ExampleReadMe2](https://github.com/Mindyratcliff/readMeFileWriter/blob/main/utils/examplereadme2.jpeg)
 
 
 ## Usage
