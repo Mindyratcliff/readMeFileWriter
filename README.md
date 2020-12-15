@@ -21,6 +21,9 @@ This is a command line application which dynamically generates a professional Re
 
 7.) [License](#license)
 
+![ScreenShot1](https://github.com/Mindyratcliff/readMeFileWriter/blob/main/utils/screenshot1.jpeg)
+![ScreenShot2](https://github.com/Mindyratcliff/readMeFileWriter/blob/main/utils/screenshot2.jpeg)
+
 
 ## Usage
 To use this, the application is invoked by the command prompt with node.js index.js fileName 
