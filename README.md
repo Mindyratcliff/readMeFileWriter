@@ -21,14 +21,18 @@ This is a command line application which dynamically generates a professional Re
 
 7.) [License](#license)
 
-![ScreenShot1](https://github.com/Mindyratcliff/readMeFileWriter/blob/main/utils/screenshot1.jpeg)
-![ScreenShot2](https://github.com/Mindyratcliff/readMeFileWriter/blob/main/utils/screenshot2.jpeg)
-![ExampleReadMe](https://github.com/Mindyratcliff/readMeFileWriter/blob/main/utils/examplereadme1.jpeg)
-![ExampleReadMe2](https://github.com/Mindyratcliff/readMeFileWriter/blob/main/utils/examplereadme2.jpeg)
-
-
 ## Usage
 To use this, the application is invoked by the command prompt with --- node index.js fileName 
+
+![ScreenShot1](https://github.com/Mindyratcliff/readMeFileWriter/blob/main/utils/screenshot1.jpeg)
+The user is prompted to answer questions to fill in the ReadMe File.
+![ScreenShot2](https://github.com/Mindyratcliff/readMeFileWriter/blob/main/utils/screenshot2.jpeg)
+When the user is finished, the application will let the user know if it was a success.
+![ExampleReadMe](https://github.com/Mindyratcliff/readMeFileWriter/blob/main/utils/examplereadme1.jpeg)
+This is an example of a generated ReadMe file.
+![ExampleReadMe2](https://github.com/Mindyratcliff/readMeFileWriter/blob/main/utils/examplereadme2.jpeg)
+It includes a badge for the license chosen.
+
 
 ## Installation 
 The user will need to have Node.js installed along with the Inquirier and Moment modules. 
