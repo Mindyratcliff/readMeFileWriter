@@ -26,7 +26,7 @@ This is a command line application which dynamically generates a professional Re
 
 
 ## Usage
-To use this, the application is invoked by the command prompt with node.js index.js fileName 
+To use this, the application is invoked by the command prompt with --- node index.js fileName 
 
 ## Installation 
 The user will need to have Node.js installed along with the Inquirier and Moment modules. 
